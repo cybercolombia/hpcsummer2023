@@ -1,0 +1,10 @@
+## Learning objectives:
+
+- Basic concepts: Moore's law. Sequential, parallel and distributed computing. Flynn's taxonomy.
+- Processes
+- Threads
+- Join-fork model
+- Race conditions
+- Thread locks
+
+## Contents:

@@ -1,0 +1,8 @@
+## Course objectives:
+
+- Introduce the concept of distributed memory
+- Introduce the message passing model
+- MPI as an implementation of the message passing model
+- Compile and execute C++ programs using the mpi library
+- Point-to-point communications
+- Collective communications
