@@ -1,7 +1,0 @@
-#include <cstdio>
-
-int main(uint argc, char *argv[]) {
-  
-  
-  return 0;
-}
