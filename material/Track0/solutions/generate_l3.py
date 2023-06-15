@@ -17,6 +17,6 @@ if __name__ == '__main__':
     
     l, n = generate_list(size)
     print("No. of 3s: ",n)
-    with open("list.dat","w") as outfile:
+    with open("solutions/list.dat","w") as outfile:
         for i in l:
             outfile.write("{0} ".format(i))

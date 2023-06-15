@@ -4,7 +4,7 @@ from threading import Thread, Lock
 
 def read_list():
     l = []
-    with open("list.dat","r") as infile:
+    with open("solutions/list.dat","r") as infile:
         l = list(map(int,infile.read().split()))
     return l
 
@@ -45,14 +45,14 @@ def count3s(l, count):
         thr.join()
         
 
-if __name__ == '__main__':    
-    l = read_list() 
+#---------------------------------------------
+l = read_list() 
 
-    count = [0]
-    t_start = perf_counter()
-    count3s(l, count)
-    t_stop = perf_counter()
+count = [0]
+t_start = perf_counter()
+count3s(l, count)
+t_stop = perf_counter()
 
-    print("Time: {0} s.".format(t_stop-t_start))
-    print("Number of 3s counted: {0}".format(count[0]))
+print("Time: {0} s.".format(t_stop-t_start))
+print("Number of 3s counted: {0}".format(count[0]))
     
