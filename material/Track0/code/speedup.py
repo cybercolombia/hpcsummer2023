@@ -1,8 +1,6 @@
-import matplotlib.pyplot as plt
 from seq_add import seq_run
 from paral_add import par_run
-from matplotlib import rc
-rc('text',usetex=True)
+
 
 # Declare and initialize the input
 sz = 1000
