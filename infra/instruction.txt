@@ -1,0 +1,7 @@
+ ** Para iniciar el laboratorio, ubicarse en la carpeta raiz  hpcsummer2023
+ 
+jupyter lab 
+
+Copiar la url del punto de entrada e ir al navegador y abrir los notebooks, 
+
+
